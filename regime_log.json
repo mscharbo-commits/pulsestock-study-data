@@ -1,1 +1,18 @@
-{"current_regime":null,"history":[]}
+{
+  "current_regime": {
+    "label": "Bull Low Vol",
+    "vix": 14,
+    "description": "Equity markets are trending higher with subdued volatility as investor sentiment remains constructive, supported by stable monetary policy expectations and resilient corporate earnings. Breadth is healthy with modest but consistent upside momentum across major indices.",
+    "guidance": "Strategies that work well include long equity exposure, covered calls, short put spreads, and trend-following approaches; avoid long volatility plays, inverse ETFs, and aggressive hedging positions that bleed premium in a low-vol grind higher.",
+    "detected_at": "2026-06-25T21:31:45.699Z"
+  },
+  "history": [
+    {
+      "label": "Bull Low Vol",
+      "vix": 14,
+      "description": "Equity markets are trending higher with subdued volatility as investor sentiment remains constructive, supported by stable monetary policy expectations and resilient corporate earnings. Breadth is healthy with modest but consistent upside momentum across major indices.",
+      "guidance": "Strategies that work well include long equity exposure, covered calls, short put spreads, and trend-following approaches; avoid long volatility plays, inverse ETFs, and aggressive hedging positions that bleed premium in a low-vol grind higher.",
+      "detected_at": "2026-06-25T21:31:45.699Z"
+    }
+  ]
+}
