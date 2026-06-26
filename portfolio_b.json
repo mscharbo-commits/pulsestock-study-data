@@ -184,5 +184,24 @@
     "regime_context": "Bull Low Vol",
     "date": "2026-06-26T03:18:04.015Z",
     "id": "1782443897616"
+  },
+  {
+    "ticker": "GS",
+    "action": "BUY",
+    "entry_price": 0,
+    "target_price": 0,
+    "stop_loss": 0,
+    "sector": "Financials",
+    "timeframe": "short-term",
+    "confidence": 0,
+    "declined": true,
+    "decline_reason": "GS is already in the portfolio. Attempting to select an alternative.",
+    "chain_of_thought": "GS is already held. Need to pivot.",
+    "adversarial_response": "N/A",
+    "reasoning": "N/A",
+    "key_risk": "N/A",
+    "regime_context": "Bull Low Vol",
+    "date": "2026-06-26T03:31:12.421Z",
+    "id": "1782444715431"
   }
 ]
