@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "pattern": "Narrative-Driven Entry Without Near-Term Catalyst",
+    "frequency": 6,
+    "description": "Positions in CRM, NET, TCOM, PDD, CACI, and GOOGL were all entered on multi-quarter thematic narratives (AI integration, China recovery, defense spending, advertising momentum) without a confirmed binary event such as an earnings release, contract award, or product announcement within the holding window. The trade thesis was directionally plausible in each case but structurally mismatched to a 10-day swing or core hold timeframe. This pattern caused repeated losses where the catalyst never materialized fast enough to support the entry price.",
+    "recommendation": "Implement a mandatory pre-entry checklist requiring every swing position to have a specific dated catalyst (earnings, product launch, contract announcement) occurring within the 10-day hold window; if no such catalyst exists within the window, the trade is disqualified regardless of thesis quality."
+  },
+  {
+    "pattern": "Excessive China Single-Country Concentration",
+    "frequency": 4,
+    "description": "Four separate positions (TCOM, CIHKY, IDCBY, PDD) were held simultaneously across both core and swing portfolios, all carrying full exposure to China macro deterioration, regulatory risk, and ADR-specific delisting overhang. When China risk-off sentiment accelerated, all four positions declined in a correlated drawdown that a single-country cap would have prevented. The losses were amplified by the fact that some instruments (CIHKY, IDCBY) had thin OTC liquidity, making exits more costly than modeled.",
+    "recommendation": "Enforce a hard rule capping total China-domiciled or China-dependent equity exposure at 15% of combined portfolio value, with no more than one OTC-listed Chinese ADR permitted at any time, and zero Chinese quasi-sovereign financial instruments classified as core holdings."
+  },
+  {
+    "pattern": "Wrong Instrument for Portfolio Classification",
+    "frequency": 3,
+    "description": "CIHKY, IDCBY, and ASGN were each assigned to the core portfolio despite carrying characteristics fundamentally incompatible with that label: OTC illiquidity, quasi-sovereign geopolitical risk, and high cyclicality respectively. Core classification implies stability and lower drawdown tolerance, yet these instruments delivered losses of 8-19% within 10 days, suggesting the classification framework was applied without screening criteria. Mislabeling volatile or illiquid instruments as core holdings distorts risk management and position sizing decisions.",
+    "recommendation": "Define explicit quantitative eligibility criteria for core portfolio classification including minimum average daily US trading volume above $5M, primary listing on NYSE or NASDAQ (no OTC), beta below 1.3, and no single-country regulatory overhang; any instrument failing one criterion is automatically reclassified as speculative or excluded."
+  },
+  {
+    "pattern": "Early Exit Discipline Applied Inconsistently",
+    "frequency": 2,
+    "description": "META and GOOGL both demonstrated effective early-exit behavior at 4 and 3 days respectively, capping losses at 2.2% and 2.58%, while the remaining eight positions were held for the full 10-day window and suffered significantly larger losses ranging from 6% to nearly 19%. The same trader who correctly cut META and GOOGL quickly failed to apply identical stop-loss logic to ASGN, TCOM, PDD, and CACI, suggesting the early exits were discretionary rather than rule-based. This inconsistency means capital preservation was luck-dependent rather than systematic.",
+    "recommendation": "Convert discretionary early-exit behavior into a written mechanical rule: set a hard stop-loss order at 3.5% below entry price for every swing position at the moment of purchase, and a 5% stop for every core position, with no manual override permitted unless a new confirmed catalyst justifies the thesis within the same trading session."
+  },
+  {
+    "pattern": "Macro Environment Mismatch at Entry",
+    "frequency": 5,
+    "description": "NET, CRM, GOOGL, TCOM, and PDD were all entered during a period where broader risk-off signals, rising rate expectations, or China-specific macro headwinds were already visible in sector ETF trends and VIX behavior, yet entries proceeded based on individual stock thesis quality alone. In each case the postmortem confirms the macro tape was unsupportive almost immediately after entry, suggesting these setups had negative expected value before the first trade was executed. Ignoring the macro backdrop consistently converted reasonable stock-selection ideas into losing trades.",
+    "recommendation": "Before any new swing or core entry, require a three-factor macro green-light check: VIX must be below 20 or in a declining trend, the relevant sector ETF must be above its 20-day moving average, and the S&P 500 must not be in a confirmed distribution phase; if two of three conditions fail, all new entries are deferred until conditions improve."
+  }
+]
