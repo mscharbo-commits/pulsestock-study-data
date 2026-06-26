@@ -1,0 +1,112 @@
+[
+  {
+    "ticker": "ASGN",
+    "entry_price": 21.02,
+    "exit_price": 17.06,
+    "return_pct": -18.84,
+    "status": "closed",
+    "portfolio": "A (Core)",
+    "reason": "Professional staffing services in tech/engineering",
+    "sector": "Industrials",
+    "days_held": 10
+  },
+  {
+    "ticker": "TCOM",
+    "entry_price": 47.51,
+    "exit_price": 39.89,
+    "return_pct": -16.04,
+    "status": "closed",
+    "portfolio": "A (Core)",
+    "reason": "Chinese travel recovery play",
+    "sector": "Consumer Discretionary",
+    "days_held": 10
+  },
+  {
+    "ticker": "CIHKY",
+    "entry_price": 31.48,
+    "exit_price": 28.5,
+    "return_pct": -9.47,
+    "status": "closed",
+    "portfolio": "A (Core)",
+    "reason": "Chinese insurer ADR",
+    "sector": "Financials",
+    "days_held": 10
+  },
+  {
+    "ticker": "IDCBY",
+    "entry_price": 18.43,
+    "exit_price": 16.88,
+    "return_pct": -8.41,
+    "status": "closed",
+    "portfolio": "A (Core)",
+    "reason": "China Development Bank ADR",
+    "sector": "Financials",
+    "days_held": 10
+  },
+  {
+    "ticker": "NET",
+    "entry_price": 237.02,
+    "exit_price": 222.16,
+    "return_pct": -6.27,
+    "status": "closed",
+    "portfolio": "A (Swing)",
+    "reason": "Cloudflare security/networking momentum",
+    "sector": "Technology",
+    "days_held": 10
+  },
+  {
+    "ticker": "CRM",
+    "entry_price": 166.06,
+    "exit_price": 155.07,
+    "return_pct": -6.62,
+    "status": "closed",
+    "portfolio": "A (Swing)",
+    "reason": "Salesforce AI integration catalyst",
+    "sector": "Technology",
+    "days_held": 10
+  },
+  {
+    "ticker": "CACI",
+    "entry_price": 492.69,
+    "exit_price": 453.05,
+    "return_pct": -8.05,
+    "status": "closed",
+    "portfolio": "A (Swing)",
+    "reason": "Government IT services contract momentum",
+    "sector": "Industrials",
+    "days_held": 10
+  },
+  {
+    "ticker": "PDD",
+    "entry_price": 82.07,
+    "exit_price": 75.16,
+    "return_pct": -8.42,
+    "status": "closed",
+    "portfolio": "A (Swing)",
+    "reason": "Temu/PDD China e-commerce growth",
+    "sector": "Consumer Discretionary",
+    "days_held": 10
+  },
+  {
+    "ticker": "META",
+    "entry_price": 564.58,
+    "exit_price": 552.14,
+    "return_pct": -2.2,
+    "status": "closed",
+    "portfolio": "A (Swing)",
+    "reason": "Meta AI and advertising revenue growth",
+    "sector": "Technology",
+    "days_held": 4
+  },
+  {
+    "ticker": "GOOGL",
+    "entry_price": 349.68,
+    "exit_price": 340.67,
+    "return_pct": -2.58,
+    "status": "closed",
+    "portfolio": "A (Swing)",
+    "reason": "Google search advertising and AI momentum",
+    "sector": "Technology",
+    "days_held": 3
+  }
+]
