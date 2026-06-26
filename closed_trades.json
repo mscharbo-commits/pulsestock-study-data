@@ -175,16 +175,16 @@
     "date": "2026-06-26T00:00:00Z"
   },
   {
-    "ticker": "CIHKY",
-    "entry_price": 31.48,
-    "exit_price": 28.96,
-    "return_pct": -8.01,
+    "ticker": "IDCBY",
+    "entry_price": 18.43,
+    "exit_price": 16.96,
+    "return_pct": -7.98,
     "exit_reason": "stop_hit",
     "notes": "",
     "status": "closed",
     "portfolio": "A (Manual)",
     "days_held": 10,
-    "date": "2026-06-26T23:29:19.285Z",
+    "date": "2026-06-26T23:30:06.751Z",
     "sector": "Unknown"
   }
 ]
