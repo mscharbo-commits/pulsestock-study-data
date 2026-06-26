@@ -88,5 +88,23 @@
     "postmortem": "GOOGL was exited in just 3 days with a 2.58% loss, again showing early exit discipline but confirming the entry timing was poor. Entering GOOGL on search advertising and AI momentum without a near-term catalyst in a risk-off tape is a low-probability setup. The very short hold period suggests the trader recognized the macro environment was not supportive almost immediately after entry.",
     "lesson": "Before entering any swing trade, check whether the broader market VIX and sector ETF trend confirm a risk-on environment; if not, stand aside regardless of individual stock thesis quality.",
     "failure_category": "wrong_timing"
+  },
+  {
+    "ticker": "WSM",
+    "portfolio": "A (Core)",
+    "outcome": "win",
+    "date": "2026-06-26",
+    "postmortem": "Williams-Sonoma delivered a clean 6.33% gain in 10 days driven by genuine retail momentum in home goods, validating that domestic consumer discretionary with strong brand pricing power was the right sub-sector to own. The target-hit exit discipline was executed correctly, locking in gains without overstaying. This was the only Core position with a domestic, non-China consumer thesis, which differentiated it from the losing cluster.",
+    "lesson": "Domestic consumer brand leaders with pricing power and clear demand trends are more reliable 10-day swing candidates than macro recovery narratives; replicate this thesis framework over China macro bets.",
+    "failure_category": "wrong_stock"
+  },
+  {
+    "ticker": "EIX",
+    "portfolio": "A (Core)",
+    "outcome": "win",
+    "date": "2026-06-26",
+    "postmortem": "Edison International delivered a steady 3.82% gain with a rate case catalyst providing identifiable, dated fundamental support for the move, exactly the type of event-driven setup that reduces reliance on market sentiment. Utilities offered defensive ballast in a period when all other Core positions except WSM were losing money, demonstrating the value of sector diversification. The manual exit was reasonable given the low-volatility nature of utility gains.",
+    "lesson": "Always include at least one regulated utility or defensive sector position in Core portfolios to offset high-beta or macro-sensitive positions; rate case events are reliable, low-competition catalysts worth prioritizing.",
+    "failure_category": "wrong_stock"
   }
 ]
