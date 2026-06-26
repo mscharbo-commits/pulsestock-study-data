@@ -1,6 +1,6 @@
 {
   "rules": [
-    "Every swing or core entry must have a specific dated catalyst (earnings release, product launch, contract award, or regulatory announcement) occurring within the 10-day hold window; if no such catalyst exists, the trade is disqualified regardless of thesis quality or conviction level.",
+    "Every entry must satisfy at least ONE of: (a) a specific dated catalyst within the 10-day hold window, OR (b) a clear technical breakout above multi-week resistance on above-average volume, OR (c) sector rotation momentum confirmed by sector ETF above its 20-day MA with relative strength vs SPX. Pure narrative momentum with no technical or catalyst anchor is still disqualified.",
     "Before any new entry, all three macro green-light conditions must be assessed: VIX below 20 or in a declining trend, the relevant sector ETF above its 20-day moving average, and the S&P 500 not in a confirmed distribution phase; if two or more conditions fail, all new entries are deferred until conditions improve.",
     "Total exposure to China-domiciled or China-dependent equities is hard-capped at 15% of combined portfolio value at all times, with no more than one OTC-listed Chinese ADR permitted simultaneously, and zero Chinese quasi-sovereign financial instruments classified as core holdings.",
     "Core portfolio classification requires all four eligibility criteria to be met: minimum average daily US trading volume above $5M, primary listing on NYSE or NASDAQ with no OTC instruments permitted, beta below 1.3, and no single-country regulatory or delisting overhang; failure on any single criterion results in automatic reclassification as speculative or full exclusion.",
@@ -38,5 +38,5 @@
       "rationale": "Sector rotation signals were insufficient to prevent correlated China drawdowns and macro-mismatch entries; weight reduced until sector ETF trend confirmation is embedded as a prerequisite filter rather than a standalone entry signal."
     }
   },
-  "updated_at": "2026-06-26T15:24:32.889Z"
+  "updated_at": "2026-06-26T20:49:54Z"
 }
