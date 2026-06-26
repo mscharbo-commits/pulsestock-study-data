@@ -1,42 +1,37 @@
 {
   "rules": [
-    "Every entry must satisfy at least ONE of three criteria \u2014 (A) a specific dated catalyst such as earnings, product launch, or contract award occurring within the 10-day hold window; OR (B) a confirmed technical breakout above a multi-week resistance level on above-average volume; OR (C) strong sector momentum where the sector ETF is above its 20-day MA with relative strength vs SPX in the current regime. Semiconductor equipment, financials, healthcare, and technology names with clear uptrends qualify under (B) or (C) without requiring an imminent earnings date. Pure narrative momentum with no technical confirmation is the only disqualifier.",
-    "Before any new entry, all three macro green-light conditions must be assessed: VIX below 20 or in a declining trend, the relevant sector ETF above its 20-day moving average, and the S&P 500 not in a confirmed distribution phase; if two or more conditions fail, all new entries are deferred until conditions improve.",
-    "Total exposure to China-domiciled or China-dependent equities is hard-capped at 15% of combined portfolio value at all times, with no more than one OTC-listed Chinese ADR permitted simultaneously, and zero Chinese quasi-sovereign financial instruments classified as core holdings.",
-    "Core portfolio classification requires all four eligibility criteria to be met: minimum average daily US trading volume above $5M, primary listing on NYSE or NASDAQ with no OTC instruments permitted, beta below 1.3, and no single-country regulatory or delisting overhang; failure on any single criterion results in automatic reclassification as speculative or full exclusion.",
-    "At the moment of purchase, a hard stop-loss order must be set at 3.5% below entry price for every swing position and 5% below entry for every core position, with no manual override permitted unless a new confirmed catalyst explicitly supporting the original thesis emerges within the same trading session.",
-    "Cyclical or economically sensitive positions including staffing, industrials, and government IT contractors require a confirmed positive data inflection (job postings uptick, earnings guidance raise, or contract award announcement) as the entry trigger; sector sentiment or narrative momentum alone is an automatic disqualifier.",
-    "China recovery or growth theses require confirmed earnings acceleration or an announced government stimulus package with quantifiable scope as a prerequisite for entry; macro narrative momentum without a dated catalyst confirmation is an automatic disqualifier.",
-    "OTC-listed foreign ADRs and quasi-sovereign foreign bank instruments are permanently excluded from all portfolio classifications; these instruments may not be held in any account regardless of thesis quality, yield, or valuation.",
-    "High-multiple growth equities should have either a technical breakout on volume OR a confirmed catalyst within the hold window. In a Bull Low Vol regime, strong price momentum above the 20-week MA with sector tailwinds is sufficient for entry. This rule is suspended for semiconductor, cybersecurity, defense tech, and healthcare names in confirmed uptrends.",
-    "Swing trades on large-cap legacy software names with compressed multiples (e.g. CRM, SAP, ORCL, WDAY) require an earnings date or major product announcement within the hold window. This rule does NOT apply to high-growth software, defense tech, EDA tools, cybersecurity, or fintech names where technical momentum is the primary driver."
+    "Before opening any swing position, confirm at least one binary catalyst (earnings release, contract award, analyst event, or product announcement) is scheduled within the 10-day hold window; if none exists, place the idea on the watchlist only and do not enter.",
+    "Cap total exposure to any single foreign country across all portfolios at 15% of combined portfolio value at time of entry, and permit no more than one China-related position in the Core portfolio simultaneously.",
+    "Any position failing Core eligibility criteria (minimum $10M average daily US trading volume, primary listing on a major US exchange, beta below 1.3 over trailing 90 days) must be classified as Speculative regardless of thesis quality.",
+    "Set a hard stop-loss order at exactly 3.5% below entry price for every swing position at the moment the order is filled, without exception and without discretionary override.",
+    "Before entering any stock with a price-to-sales ratio above 10x or average daily US volume below $5M, confirm VIX is below 20 and the relevant sector ETF is trading above its 20-day moving average; reduce intended position size by 50% if either condition fails.",
+    "Never enter cyclical or staffing stocks without a confirmed positive inflection in job postings data or forward earnings guidance from the most recent reporting period.",
+    "Never enter China-exposed equities on narrative momentum alone; require confirmed earnings acceleration, explicit government stimulus catalyst, or documented revenue inflection as the entry trigger.",
+    "Never classify OTC-listed ADRs or foreign quasi-government bank ADRs with average daily US volume below $5M as Core holdings; exclude them from Core entirely and treat as Speculative or avoid.",
+    "For high-multiple growth stocks (P/S above 10x), require a defined technical breakout above a key resistance level or an imminent catalyst within the hold window as mandatory entry criteria; momentum alone is insufficient.",
+    "Before any swing trade entry, perform a macro regime check confirming VIX is below 20 and the sector ETF is in an uptrend above its 20-day moving average; if either condition is unmet, stand aside regardless of individual stock thesis quality."
   ],
   "factor_weights": {
     "momentum": {
-      "weight": 0.15,
-      "trend": "decreasing",
-      "rationale": "Momentum-only entries without catalyst confirmation or macro alignment produced the majority of losing trades; weight reduced until macro green-light and catalyst checklist filters are consistently applied to momentum setups."
+      "weight": 0.35,
+      "trend": "decreasing"
     },
     "mean_reversion": {
-      "weight": 0.2,
-      "trend": "stable",
-      "rationale": "Mean reversion setups were not a primary driver of losses in the reviewed cluster; weight maintained but must still pass macro green-light and stop-loss rules before execution."
+      "weight": 0.25,
+      "trend": "stable"
     },
     "value": {
       "weight": 0.2,
-      "trend": "stable",
-      "rationale": "Value factor was not a primary contributor to identified loss patterns; maintained at moderate weight with the caveat that value theses in single-country or OTC instruments remain excluded by instrument eligibility rules."
+      "trend": "stable"
     },
     "event_driven": {
-      "weight": 0.35,
-      "trend": "increasing",
-      "rationale": "The mandatory catalyst checklist and stop-loss discipline rules structurally favor event-driven setups with defined binary outcomes; increasing weight aligns factor emphasis with the new rules framework and addresses the root cause of narrative-only entry losses."
+      "weight": 0.65,
+      "trend": "increasing"
     },
     "sector_rotation": {
-      "weight": 0.1,
-      "trend": "decreasing",
-      "rationale": "Sector rotation signals were insufficient to prevent correlated China drawdowns and macro-mismatch entries; weight reduced until sector ETF trend confirmation is embedded as a prerequisite filter rather than a standalone entry signal."
+      "weight": 0.2,
+      "trend": "decreasing"
     }
   },
-  "updated_at": "2026-06-26T21:14:43Z"
+  "updated_at": "2026-06-26T23:32:46.692Z"
 }
