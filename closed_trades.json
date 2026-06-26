@@ -108,5 +108,70 @@
     "reason": "Google search advertising and AI momentum",
     "sector": "Technology",
     "days_held": 3
+  },
+  {
+    "ticker": "WSM",
+    "entry_price": 223.56,
+    "exit_price": 237.72,
+    "return_pct": 6.33,
+    "status": "closed",
+    "portfolio": "A (Core)",
+    "reason": "Williams-Sonoma retail momentum with strong home goods demand",
+    "sector": "Consumer Discretionary",
+    "days_held": 10,
+    "exit_reason": "target_hit",
+    "date": "2026-06-26T00:00:00Z"
+  },
+  {
+    "ticker": "EIX",
+    "entry_price": 72.02,
+    "exit_price": 74.77,
+    "return_pct": 3.82,
+    "status": "closed",
+    "portfolio": "A (Core)",
+    "reason": "Edison International utility with rate case catalyst",
+    "sector": "Utilities",
+    "days_held": 10,
+    "exit_reason": "manual_exit",
+    "date": "2026-06-26T00:00:00Z"
+  },
+  {
+    "ticker": "PNC",
+    "entry_price": 233.96,
+    "exit_price": 244.33,
+    "return_pct": 4.43,
+    "status": "closed",
+    "portfolio": "A (Core)",
+    "reason": "PNC Financial regional bank benefiting from NII expansion",
+    "sector": "Financials",
+    "days_held": 10,
+    "exit_reason": "target_hit",
+    "date": "2026-06-26T00:00:00Z"
+  },
+  {
+    "ticker": "JPM",
+    "entry_price": 326.43,
+    "exit_price": 331.77,
+    "return_pct": 1.64,
+    "status": "closed",
+    "portfolio": "A (Core)",
+    "reason": "JPMorgan diversified banking with strong capital markets",
+    "sector": "Financials",
+    "days_held": 10,
+    "exit_reason": "manual_exit",
+    "date": "2026-06-26T00:00:00Z"
+  },
+  {
+    "ticker": "OTIS",
+    "entry_price": 72.25,
+    "exit_price": 73.13,
+    "return_pct": 1.22,
+    "status": "closed",
+    "portfolio": "A (Core)",
+    "reason": "Otis Worldwide elevator maintenance recurring revenue",
+    "sector": "Industrials",
+    "days_held": 10,
+    "exit_reason": "manual_exit",
+    "date": "2026-06-26T00:00:00Z"
   }
 ]
