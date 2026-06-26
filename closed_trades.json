@@ -175,16 +175,16 @@
     "date": "2026-06-26T00:00:00Z"
   },
   {
-    "ticker": "ASGN",
-    "entry_price": 21.02,
-    "exit_price": 19.34,
-    "return_pct": -7.99,
+    "ticker": "TCOM",
+    "entry_price": 47.51,
+    "exit_price": 43.71,
+    "return_pct": -8,
     "exit_reason": "stop_hit",
     "notes": "",
     "status": "closed",
     "portfolio": "A (Manual)",
     "days_held": 10,
-    "date": "2026-06-26T23:27:00.633Z",
+    "date": "2026-06-26T23:28:22.075Z",
     "sector": "Unknown"
   }
 ]
