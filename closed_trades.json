@@ -175,16 +175,16 @@
     "date": "2026-06-26T00:00:00Z"
   },
   {
-    "ticker": "TCOM",
-    "entry_price": 47.51,
-    "exit_price": 43.71,
-    "return_pct": -8,
+    "ticker": "CIHKY",
+    "entry_price": 31.48,
+    "exit_price": 28.96,
+    "return_pct": -8.01,
     "exit_reason": "stop_hit",
     "notes": "",
     "status": "closed",
     "portfolio": "A (Manual)",
     "days_held": 10,
-    "date": "2026-06-26T23:28:22.075Z",
+    "date": "2026-06-26T23:29:19.285Z",
     "sector": "Unknown"
   }
 ]
