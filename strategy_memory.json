@@ -8,8 +8,8 @@
     "Cyclical or economically sensitive positions including staffing, industrials, and government IT contractors require a confirmed positive data inflection (job postings uptick, earnings guidance raise, or contract award announcement) as the entry trigger; sector sentiment or narrative momentum alone is an automatic disqualifier.",
     "China recovery or growth theses require confirmed earnings acceleration or an announced government stimulus package with quantifiable scope as a prerequisite for entry; macro narrative momentum without a dated catalyst confirmation is an automatic disqualifier.",
     "OTC-listed foreign ADRs and quasi-sovereign foreign bank instruments are permanently excluded from all portfolio classifications; these instruments may not be held in any account regardless of thesis quality, yield, or valuation.",
-    "High-multiple growth or momentum equities must satisfy at least one of two hard entry criteria: a defined technical breakout above a multi-week resistance level on above-average volume, or a confirmed imminent catalyst within the hold window; momentum alone without either condition is an automatic disqualifier.",
-    "Swing trades on large-cap software or cloud names must be anchored to an earnings date or major product announcement within the hold window; multi-quarter thematic narratives without a near-term binary event are not valid entry justifications for any position sized above 1% of portfolio."
+    "High-multiple growth equities should have either a technical breakout on volume OR a confirmed catalyst within the hold window. In a Bull Low Vol regime, strong price momentum above the 20-week MA with sector tailwinds is sufficient for entry. This rule is suspended for semiconductor, cybersecurity, defense tech, and healthcare names in confirmed uptrends.",
+    "Swing trades on large-cap legacy software names with compressed multiples (e.g. CRM, SAP, ORCL, WDAY) require an earnings date or major product announcement within the hold window. This rule does NOT apply to high-growth software, defense tech, EDA tools, cybersecurity, or fintech names where technical momentum is the primary driver."
   ],
   "factor_weights": {
     "momentum": {
@@ -38,5 +38,5 @@
       "rationale": "Sector rotation signals were insufficient to prevent correlated China drawdowns and macro-mismatch entries; weight reduced until sector ETF trend confirmation is embedded as a prerequisite filter rather than a standalone entry signal."
     }
   },
-  "updated_at": "2026-06-26T21:09:08Z"
+  "updated_at": "2026-06-26T21:14:43Z"
 }
