@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "ticker": "ASGN",
+    "portfolio": "A (Core)",
+    "outcome": "loss",
+    "date": "10-day hold",
+    "postmortem": "ASGN was entered as a staffing services play but lost nearly 19% in just 10 days, suggesting either a poor macro read on tech hiring demand or a broader market downdraft amplified a weak sector. Professional staffing is highly cyclical and sensitive to tech layoff cycles, which were still ongoing. No clear catalyst existed to justify a core position in this environment.",
+    "lesson": "Never enter cyclical staffing stocks without confirming a positive inflection in job postings data or earnings guidance first.",
+    "failure_category": "wrong_stock"
+  },
+  {
+    "ticker": "TCOM",
+    "portfolio": "A (Core)",
+    "outcome": "loss",
+    "date": "10-day hold",
+    "postmortem": "The Chinese travel recovery thesis was directionally plausible but timed poorly against ongoing China macro headwinds including weak consumer sentiment and geopolitical risk premium. A 16% loss in 10 days on a core position indicates the entry was chasing a narrative without confirming price momentum or support levels. China ADRs carry additional delisting and regulatory risk that was underweighted.",
+    "lesson": "China recovery theses require confirmed earnings acceleration or government stimulus catalysts before entry, not just narrative momentum.",
+    "failure_category": "wrong_timing"
+  },
+  {
+    "ticker": "CIHKY",
+    "portfolio": "A (Core)",
+    "outcome": "loss",
+    "date": "10-day hold",
+    "postmortem": "Chinese insurer ADR was added as a financials diversifier but suffered from broad China risk-off sentiment dragging the entire ADR space lower. Liquidity in OTC ADRs is thin, making exits costly and spreads wide. The core portfolio classification suggests this was intended as a stable holding, but Chinese financials carry sovereign and regulatory risks incompatible with that label.",
+    "lesson": "OTC-listed Chinese ADRs should never be classified as core holdings due to liquidity risk, regulatory overhang, and forced delisting exposure.",
+    "failure_category": "wrong_stock"
+  },
+  {
+    "ticker": "IDCBY",
+    "portfolio": "A (Core)",
+    "outcome": "loss",
+    "date": "10-day hold",
+    "postmortem": "China Development Bank ADR is a quasi-sovereign Chinese financial instrument with minimal price transparency and extremely thin US trading volume. Entering this as a core position reflects overconfidence in the China recovery narrative without accounting for the near-zero retail demand for this security type. An 8.4% loss on a bank ADR in 10 days signals the market was actively repricing China credit risk.",
+    "lesson": "Avoid quasi-government foreign bank ADRs with thin US volume entirely; they offer no liquidity advantage and full geopolitical downside.",
+    "failure_category": "overconfidence"
+  },
+  {
+    "ticker": "NET",
+    "portfolio": "A (Swing)",
+    "outcome": "loss",
+    "date": "10-day hold",
+    "postmortem": "Cloudflare was entered on security/networking momentum but dropped 6.3% in the hold period, likely caught in a broader tech multiple compression event. NET trades at a very high revenue multiple, making it extremely sensitive to risk-off moves or rising rate expectations. The swing entry lacked a defined technical trigger or earnings catalyst to justify the risk.",
+    "lesson": "High-multiple growth stocks like NET require a defined technical breakout or imminent catalyst as entry criteria, not momentum alone.",
+    "failure_category": "wrong_timing"
+  },
+  {
+    "ticker": "CRM",
+    "portfolio": "A (Swing)",
+    "outcome": "loss",
+    "date": "10-day hold",
+    "postmortem": "Salesforce was entered on an AI integration catalyst narrative but shed 6.6% with no confirmed earnings event in the holding window. The AI catalyst for CRM is a multi-quarter story, not a 10-day swing trade setup. Entering large-cap software on narrative without a near-term binary event is a timing mismatch between trade thesis and holding period.",
+    "lesson": "Swing trades on large-cap software must be anchored to an earnings date or product announcement within the hold window, not a multi-quarter theme.",
+    "failure_category": "wrong_timing"
+  },
+  {
+    "ticker": "CACI",
+    "portfolio": "A (Swing)",
+    "outcome": "loss",
+    "date": "10-day hold",
+    "postmortem": "Government IT services was a reasonable sector thesis but CACI lost 8% in 10 days, suggesting contract momentum was already priced in or broader defense spending uncertainty weighed on the name. At nearly $500 per share, position sizing risk is amplified and stop-loss placement is harder to execute precisely. The swing rationale lacked a specific upcoming contract announcement or earnings release.",
+    "lesson": "Government IT contract momentum trades need a confirmed contract award announcement or earnings beat as the entry trigger, not sector sentiment.",
+    "failure_category": "overconfidence"
+  },
+  {
+    "ticker": "PDD",
+    "portfolio": "A (Swing)",
+    "outcome": "loss",
+    "date": "10-day hold",
+    "postmortem": "PDD was entered on Temu growth excitement but fell 8.4% as China consumer discretionary faced continued macro pressure and potential US regulatory scrutiny of Temu's trade practices. The growth story is real but the stock was already reflecting optimistic forward estimates, leaving no margin of safety. Pairing a China growth narrative swing trade alongside multiple other China positions created dangerous sector concentration.",
+    "lesson": "Cap total China exposure across all positions to a maximum of 15% of portfolio to prevent correlated drawdowns from single-country risk events.",
+    "failure_category": "sector_weakness"
+  },
+  {
+    "ticker": "META",
+    "portfolio": "A (Swing)",
+    "outcome": "loss",
+    "date": "4-day hold",
+    "postmortem": "META was closed early at 4 days versus the standard 10-day window, suggesting a stop-loss or discretionary exit was triggered, limiting the loss to 2.2%. The AI and advertising thesis is fundamentally sound but short-term price action was unfavorable at entry. Early exit discipline was the one bright spot in this batch, demonstrating that cutting losers quickly preserves capital.",
+    "lesson": "Apply the same early-exit discipline used on META to all swing positions by setting hard stop-losses at 3-4% below entry at the time of purchase.",
+    "failure_category": "wrong_timing"
+  },
+  {
+    "ticker": "GOOGL",
+    "portfolio": "A (Swing)",
+    "outcome": "loss",
+    "date": "3-day hold",
+    "postmortem": "GOOGL was exited in just 3 days with a 2.58% loss, again showing early exit discipline but confirming the entry timing was poor. Entering GOOGL on search advertising and AI momentum without a near-term catalyst in a risk-off tape is a low-probability setup. The very short hold period suggests the trader recognized the macro environment was not supportive almost immediately after entry.",
+    "lesson": "Before entering any swing trade, check whether the broader market VIX and sector ETF trend confirm a risk-on environment; if not, stand aside regardless of individual stock thesis quality.",
+    "failure_category": "wrong_timing"
+  }
+]
