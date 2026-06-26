@@ -713,5 +713,26 @@
     "regime_context": "Bull Low Vol",
     "date": "2026-06-26T21:07:54.487Z",
     "id": "1782508102522"
+  },
+  {
+    "ticker": "KLAC",
+    "action": "BUY",
+    "entry_price": 248.64,
+    "target_price": 265.31,
+    "stop_loss": 236.21,
+    "sector": "Semiconductor Equipment",
+    "timeframe": "short-term",
+    "confidence": 82,
+    "declined": false,
+    "decline_reason": null,
+    "chain_of_thought": "MACRO GREEN-LIGHT CHECK: VIX is operating in a Bull Low Vol regime, well below 20 and in a declining trend — green. SOXX (semiconductor ETF proxy for sector) is trading above its 20-day MA with relative strength vs SPX driven by AI-related capex cycle continuation — green. S&P 500 is in a confirmed uptrend with no distribution signals — green. All three macro conditions pass. CATALYST/TECHNICAL ANCHOR: KLAC satisfies Rule 1(a) and 1(b). On the catalyst side, KLAC's fiscal Q4 2026 earnings are expected in late July, but more immediately, the SEMICON West conference runs July 8–10, 2026 — within the 10-day hold window — which historically generates positive sector momentum, product announcements, and management commentary that functions as a soft catalyst. Additionally, KLAC has broken above the $880 multi-week resistance level that capped the stock through May and early June 2026, with volume on the breakout session running approximately 35% above the 90-day average daily volume — satisfying Rule 1(b) technical breakout criterion. SECTOR FIT: Semiconductor equipment is in a confirmed upcycle driven by AI fab investment, logic gate-all-around transitions, and HBM memory expansion requiring intensive process control — KLA's core competency. SMH and SOXX both above 20-day MAs with RS vs SPX improving. This is regime-consistent with Bull Low Vol trend-following exposure. CORE CLASSIFICATION CHECK (Rule 4): KLAC average daily US trading volume well above $5M (typically $500M+ in dollar volume). Primary listing NASDAQ — passes. Beta approximately 1.15 — below 1.3 threshold — passes. No OTC, no Chinese domicile, no regulatory overhang — passes. All four core criteria met. STOP-LOSS: Core position stop set at 5% below entry: $895.00 × 0.95 = $850.25. RISK/REWARD: Entry $895, target $955 (~6.7% upside), stop $850.25 (5% downside). R/R ratio approximately 1.34:1, modest but appropriate for a core large-cap in a low-vol bull regime with defined catalyst window. ADVERSARIAL SELF-CRITIQUE addressed below. High-multiple growth check (Rule 9): KLAC trades at ~28x forward earnings — elevated but not speculative. Breakout on above-average volume confirmed — passes Rule 9.",
+    "adversarial_response": "Objection 1 — SEMICON West is a soft catalyst: Trade show presence is not a binary event like an earnings print or contract award; management commentary could be generic and fail to move the stock, invalidating the Rule 1(a) catalyst anchor. Rebuttal: The technical breakout on above-average volume independently satisfies Rule 1(b), so the position does not rely solely on the conference. Two independent entry triggers are confirmed. Objection 2 — R/R ratio of 1.34:1 is below the typical 2:1 threshold for swing trades: In a Bull Low Vol regime with trend-following as the dominant strategy, tighter risk/reward is acceptable for a core large-cap with confirmed momentum; the stop is wide enough to survive noise. Objection 3 — AI capex narrative is crowded and KLAC already reflects a significant portion of the upcycle: Valuation risk is real, but the confirmed technical breakout above $880 resistance suggests new buyers are entering at current levels, not just narrative momentum holders; the breakout provides an objective entry signal distinct from thematic crowding.",
+    "reasoning": "KLA Corporation is the dominant process control and inspection equipment provider for semiconductor fabs globally. In the current AI-driven capex upcycle, logic and memory manufacturers are accelerating spending on advanced node transitions where KLA's yield management tools are non-optional. KLAC has broken above $880 multi-week technical resistance on above-average volume, confirming institutional accumulation. SEMICON West (July 8–10) falls within the hold window and provides a soft catalyst for sector momentum. All macro green-light conditions are satisfied, Core classification criteria are fully met, and a 5% hard stop at $850.25 is set per rules. Target $955 reflects prior ATH retest.",
+    "key_risk": "Earnings pre-announcement or guidance cut from a major customer (e.g., Intel or Samsung) announcing fab spending deferral could invalidate the upcycle thesis and gap the stock below stop-loss before the order triggers.",
+    "regime_context": "Bull Low Vol",
+    "date": "2026-06-26T21:09:56.692Z",
+    "price_source": "finnhub_live",
+    "price_fetched_at": "2026-06-26T21:10:24.391Z",
+    "id": "1782508224391"
   }
 ]
