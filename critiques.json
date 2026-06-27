@@ -106,5 +106,32 @@
     "postmortem": "Edison International delivered a steady 3.82% gain with a rate case catalyst providing identifiable, dated fundamental support for the move, exactly the type of event-driven setup that reduces reliance on market sentiment. Utilities offered defensive ballast in a period when all other Core positions except WSM were losing money, demonstrating the value of sector diversification. The manual exit was reasonable given the low-volatility nature of utility gains.",
     "lesson": "Always include at least one regulated utility or defensive sector position in Core portfolios to offset high-beta or macro-sensitive positions; rate case events are reliable, low-competition catalysts worth prioritizing.",
     "failure_category": "wrong_stock"
+  },
+  {
+    "ticker": "PNC",
+    "portfolio": "A (Core)",
+    "outcome": "win",
+    "date": "2026-06-26",
+    "postmortem": "PNC Financial's NII expansion thesis played out as interest rate dynamics supported net interest margin expansion for regional banks. The target hit at +4.43% in 10 days confirms the thesis was correctly timed to the rate environment. Regional banks outperformed when the macro backdrop stabilized.",
+    "lesson": "Regional bank NII expansion trades are high-conviction when the Fed rate pause is confirmed — always pair regional bank longs with a clear rate backdrop thesis and set targets at prior resistance levels.",
+    "failure_category": "correct_thesis"
+  },
+  {
+    "ticker": "JPM",
+    "portfolio": "A (Core)",
+    "outcome": "win",
+    "date": "2026-06-26",
+    "postmortem": "JPMorgan's diversified model delivered a modest +1.64% gain but underperformed PNC, suggesting mega-cap bank diversification is a weaker expression of the NII thesis versus pure-play regional banks. The manual exit suggests conviction faded or a better opportunity arose, not a thesis failure.",
+    "lesson": "When trading a sector thesis, concentrate in the highest-beta pure-play expression (regional banks for NII) rather than diversified mega-caps which dilute the return profile.",
+    "failure_category": "correct_thesis"
+  },
+  {
+    "ticker": "OTIS",
+    "portfolio": "A (Core)",
+    "outcome": "win",
+    "date": "2026-06-26",
+    "postmortem": "Otis Worldwide delivered a small +1.22% gain on its recurring revenue thesis, which is inherently a low-volatility, low-return profile — the outcome matched the thesis character. The manual exit suggests the position was not meeting return hurdles relative to capital deployment alternatives.",
+    "lesson": "Recurring revenue / maintenance businesses are portfolio stabilizers, not return drivers — size them small and only hold if they serve a volatility-dampening portfolio construction purpose, not as standalone return generators.",
+    "failure_category": "correct_thesis"
   }
 ]
