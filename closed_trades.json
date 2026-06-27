@@ -263,7 +263,7 @@
     "days_held": 4,
     "date": "2026-06-27T01:39:46.825Z",
     "sector": "Unknown",
-    "notes": "Exit the position at market open or on any intraday bounce toward $339-$340. Do not wait for stop to be hit mechanically — proactive exit preserves capital and avoids slippage risk near the stop level. Redeploy into a name with positive relative strength in the current bull regime."
+    "notes": "Exit the position at market open or on any intraday bounce toward $339-$340. Do not wait for stop to be hit mechanically \u2014 proactive exit preserves capital and avoids slippage risk near the stop level. Redeploy into a name with positive relative strength in the current bull regime."
   },
   {
     "ticker": "MU",
@@ -276,6 +276,6 @@
     "days_held": 0,
     "date": "2026-06-27T01:39:46.825Z",
     "sector": "Unknown",
-    "notes": "Exit the position immediately at market open or current bid. The stop cushion is 0% and the primary catalyst (earnings) has already occurred with a bearish price response — there is no justification to hold further losses. Close all legs of any options structure and take the -3.47% realized loss."
+    "notes": "Exit the position immediately at market open or current bid. The stop cushion is 0% and the primary catalyst (earnings) has already occurred with a bearish price response \u2014 there is no justification to hold further losses. Close all legs of any options structure and take the -3.47% realized loss."
   }
 ]
