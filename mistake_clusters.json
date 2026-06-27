@@ -1,44 +1,32 @@
 [
   {
-    "pattern": "Domestic Catalyst-Anchored Wins vs. Narrative-Driven Losses",
-    "frequency": 8,
-    "type": "positive",
-    "description": "Every winning position (WSM, EIX, PNC, JPM, OTIS) had an identifiable, dated domestic catalyst — earnings momentum, rate case events, or confirmed NII expansion — tied to the entry rationale. Every losing position was entered on a macro narrative, sector sentiment, or thematic story without a near-term binary event to anchor the trade. The absence of a concrete catalyst correlates perfectly with losses across both Core and Swing portfolios.",
-    "recommendation": "Mandate a written catalyst checklist at entry: confirm a specific dated event (earnings, rate decision, contract award, product launch) occurring within the hold window before any position is opened, Core or Swing."
-  },
-  {
-    "pattern": "China Exposure Clustering Created Correlated Drawdowns",
+    "pattern": "China Narrative Concentration Risk",
     "frequency": 4,
-    "type": "negative",
-    "description": "Four losing positions (TCOM, CIHKY, IDCBY, PDD) were all China-linked and all lost simultaneously, indicating the portfolio carried dangerous single-country concentration risk that was not recognized at construction. Each position was rationalized independently under different sub-narratives (travel recovery, financial diversification, quasi-sovereign safety, consumer growth) but they all shared the same China macro risk factor. A single China risk-off event wiped out capital across multiple supposedly diversified holdings.",
-    "recommendation": "Implement a hard portfolio rule: total China-linked exposure across all tickers and portfolios cannot exceed 15% of total capital at any time; use a country exposure heatmap before each new entry to enforce this limit."
+    "description": "Four positions (TCOM, CIHKY, IDCBY, PDD) were entered on China recovery or growth narratives simultaneously, creating dangerous correlated exposure to a single country's macro, regulatory, and geopolitical risk. All four resulted in losses within 10 days as China risk-off sentiment swept the entire ADR space regardless of individual company fundamentals. The losses were amplified by thin OTC liquidity in CIHKY and IDCBY, making exits costly.",
+    "recommendation": "Implement a hard rule capping total China-domiciled or China-revenue-dependent exposure at 15% of any portfolio at time of entry, and ban OTC-listed Chinese ADRs from Core portfolio classifications entirely."
   },
   {
-    "pattern": "Early Exit Discipline Preserved Capital on Swing Losses",
+    "pattern": "Narrative Momentum Without Near-Term Catalyst Anchor",
+    "frequency": 5,
+    "description": "TCOM, NET, CRM, CACI, and PDD were all entered on directionally plausible theses (travel recovery, security momentum, AI integration, defense spending, Temu growth) but none had a confirmed binary catalyst — such as an earnings release, contract award, or government stimulus announcement — scheduled within the 10-day holding window. The thesis-to-timeframe mismatch caused all five to lose money as broader market sentiment overrode the narrative. Multi-quarter growth stories executed as short-swing trades is a structural setup failure.",
+    "recommendation": "Before any swing trade entry, require a documented near-term catalyst (earnings date, product launch, contract announcement, or macro event) occurring within 7 days of entry; if no such catalyst exists, the position is disqualified from the swing portfolio regardless of thesis quality."
+  },
+  {
+    "pattern": "Early Exit Discipline Preserving Capital on Large-Cap Tech",
     "frequency": 2,
-    "type": "positive",
-    "description": "META (exited day 4, -2.2%) and GOOGL (exited day 3, -2.58%) were both cut well before the standard 10-day window, limiting losses to roughly one-third of what the losing China and staffing positions suffered by holding to full term. The pattern confirms that discretionary or stop-triggered early exits are the single most effective loss-mitigation tool available within this strategy's framework. The contrast with 10-day holds losing 8-19% is stark and quantifiable.",
-    "recommendation": "Set a hard mechanical stop-loss at 3-4% below entry price for every swing position at the moment of purchase, removing discretion from the exit decision and preventing the 8-19% loss range seen in full-hold losers."
+    "description": "META (4-day hold, -2.2%) and GOOGL (3-day hold, -2.58%) both demonstrated that rapid recognition of unfavorable price action and discretionary early exits limited losses to under 3%, dramatically outperforming the 6-19% losses absorbed on full 10-day holds in other positions. This pattern proves the trader has the instinct to cut losers quickly but applies it inconsistently, allowing other positions like ASGN (-19%) and TCOM (-16%) to run to full loss. The inconsistency suggests stop-loss rules exist behaviorally but are not systematized.",
+    "recommendation": "Codify the early-exit behavior observed in META and GOOGL into a universal hard stop-loss rule set at 3-4% below entry price for all swing positions at the moment of purchase, removing discretion and ensuring the discipline applied to large-cap tech is applied uniformly across all holdings."
   },
   {
-    "pattern": "OTC and Thin-Volume ADRs Are Structurally Incompatible with Core Classification",
-    "frequency": 2,
-    "type": "negative",
-    "description": "CIHKY and IDCBY were both OTC-listed Chinese ADRs placed in a Core portfolio despite having thin US trading volume, wide bid-ask spreads, delisting overhang, and near-zero retail demand — characteristics that are the opposite of what a core holding requires. Classifying these as core positions reflects a fundamental mismatch between the portfolio label and the security's liquidity and risk profile. The losses in these names were partially structural, not just directional, as exits were costly regardless of market direction.",
-    "recommendation": "Define explicit eligibility criteria for Core portfolio inclusion: minimum average daily US volume of $10M, primary US or EU listing, and no OTC classification; any security failing these screens is automatically excluded from Core consideration regardless of thesis quality."
-  },
-  {
-    "pattern": "High-Multiple Growth Stocks Without Near-Term Catalysts Underperform in Risk-Off Tape",
+    "pattern": "Domestic Event-Driven Positions Outperform Macro Recovery Bets",
     "frequency": 3,
-    "type": "negative",
-    "description": "NET, CRM, and GOOGL were all entered on AI or platform momentum themes without confirming that the broader tape was in a risk-on regime or that a near-term earnings event would compress the time-to-catalyst window. High revenue multiples in NET and CRM made both stocks disproportionately sensitive to any risk-off signal or rate expectation shift, amplifying losses beyond what the underlying business deterioration warranted. The multi-quarter nature of AI integration themes is fundamentally incompatible with 10-day swing trade holding periods.",
-    "recommendation": "Before entering any stock trading above 15x revenue or 40x forward earnings in a swing position, require both a VIX below 20 confirming risk-on conditions AND an earnings date or product announcement within 10 calendar days of entry; if both conditions are not met, do not enter."
+    "description": "The three strongest Core performers — WSM (+6.33%), EIX (+3.82%), and PNC (+4.43%) — all shared a common structure: a domestic company with a specific, identifiable fundamental driver (retail brand momentum, a filed rate case, and a confirmed Fed rate pause respectively). By contrast, the losing Core positions relied on macro recovery narratives in foreign markets or cyclical sector sentiment. The winning pattern required no geopolitical assumption and had a dated, verifiable catalyst, which compressed uncertainty and improved timing precision.",
+    "recommendation": "Prioritize Core position construction around domestic companies with a single identifiable, dated catalyst (rate case filing, earnings release, product cycle) over macro recovery narratives in foreign markets; require every Core entry to have a named catalyst with a date attached before capital is deployed."
   },
   {
-    "pattern": "Pure-Play Sector Expression Outperforms Diversified Mega-Cap in Same Thesis",
+    "pattern": "High-Multiple Growth Stocks Entered Without Technical Breakout Confirmation",
     "frequency": 2,
-    "type": "positive",
-    "description": "PNC (+4.43%) significantly outperformed JPM (+1.64%) despite both being entered on the same NII expansion thesis, demonstrating that regional banks — as higher-beta pure-plays on the rate environment — capture far more of the sector upside than diversified mega-cap banks that dilute the thesis across multiple revenue streams. This pattern suggests that when a sector thesis is high-conviction, capital should be concentrated in the most direct expression of that thesis rather than spread across large-cap proxies for safety. The size and diversification of JPM actually reduced return without meaningfully reducing risk.",
-    "recommendation": "When a sector thesis drives a trade, rank candidate tickers by revenue concentration in the target theme and allocate the largest position weight to the highest-purity expression; reserve mega-cap names only for hedging or volatility-dampening roles with correspondingly smaller sizing."
+    "description": "NET and CRM were both entered on momentum or narrative without a confirmed technical breakout level or defined support structure, leaving the positions fully exposed to multiple compression during any risk-off tape rotation. High-revenue-multiple growth stocks carry asymmetric downside sensitivity to rate expectations and macro sentiment shifts, meaning entry timing precision is more critical than for value or cyclical names. Both positions lost roughly 6-7%, which is significant for a 10-day swing horizon and indicates the entry was made into resistance rather than off support.",
+    "recommendation": "For any stock trading above 15x revenue, require a confirmed weekly chart breakout above a prior resistance level with above-average volume as a non-negotiable entry criterion, and reduce standard position sizing by 25% to account for elevated multiple-compression risk in risk-off environments."
   }
 ]
