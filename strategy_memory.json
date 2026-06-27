@@ -1,44 +1,42 @@
 {
   "rules": [
-    "Before entering any swing position, confirm at least one binary catalyst (earnings release, contract award, analyst event, or product announcement) is scheduled within the 10-day hold window; if no such catalyst exists, place the idea on the watchlist only and do not open a position.",
-    "Set a hard stop-loss order at exactly 3.5% below entry price for every swing position at the moment the fill is confirmed, without exception and without discretionary override.",
-    "Cap total exposure to any single foreign country across all portfolios at 15% of combined portfolio value, and permit no more than one China-related position in the Core portfolio at any time.",
-    "Never classify a position as Core unless it meets all three criteria simultaneously: minimum average daily US trading volume of $10M, primary listing on a major US exchange (not OTC), and trailing 90-day beta below 1.3; any position failing one or more thresholds must be labeled Speculative at entry.",
-    "Do not hold OTC-listed foreign ADRs, including Chinese ADRs and quasi-government foreign bank ADRs, in any portfolio under any classification due to liquidity risk, regulatory overhang, and forced delisting exposure.",
-    "Before entering any stock with a price-to-sales ratio above 10x or average daily US volume below $5M, confirm in writing that VIX is below 20 and the relevant sector ETF is trading above its 20-day moving average; if either condition fails, reduce intended position size by 50% or stand aside entirely.",
-    "Swing trades on large-cap software or high-multiple growth stocks require a confirmed earnings date or product announcement within the hold window as the entry trigger; sector momentum or multi-quarter thematic narrative alone is not a sufficient entry condition.",
-    "Government IT contract momentum trades require a confirmed contract award announcement or earnings beat as the entry trigger; sector sentiment without a discrete near-term event does not qualify.",
-    "Before entering any swing trade, verify that the broader market VIX is below 20 and the relevant sector ETF is trending above its 20-day moving average; if either condition is not met, stand aside regardless of individual stock thesis quality.",
-    "Maintain at least one regulated utility or defensive sector position in every Core portfolio at all times to offset high-beta or macro-sensitive holdings; rate case decisions and earnings from regulated utilities qualify as reliable, low-competition catalysts.",
-    "Prioritize domestic consumer brand leaders with demonstrable pricing power and clear near-term demand evidence as swing trade candidates over foreign macro recovery narratives; these structures are more reliably actionable within a 10-day hold window.",
-    "High-multiple growth stocks such as those with price-to-sales above 10x require a defined technical breakout confirmation or an imminent catalyst as entry criteria; momentum alone without a structural entry trigger is prohibited as the sole basis for entry."
+    "Every position entry (Core or Swing) requires a written catalyst checklist confirming a specific dated event — earnings release, rate case decision, contract award, or product announcement — occurring within the hold window before capital is committed.",
+    "Total China-linked exposure across all tickers and portfolios is capped at 15% of total capital at all times; a country exposure heatmap must be reviewed before each new entry to enforce this limit.",
+    "A hard mechanical stop-loss must be set at 3-4% below entry price for every swing position at the exact moment of purchase, with no discretionary override permitted.",
+    "Core portfolio eligibility requires: minimum average daily US volume of $10M, primary US or EU listing, and no OTC classification; any security failing any single screen is automatically excluded from Core regardless of thesis quality.",
+    "Any stock trading above 15x revenue or 40x forward earnings may only be entered in a swing position if BOTH VIX is below 20 AND an earnings date or product announcement falls within 10 calendar days of entry; if either condition is unmet, the trade is rejected.",
+    "When a sector thesis drives a trade, rank candidate tickers by revenue concentration in the target theme and allocate the largest position weight to the highest-purity expression; mega-cap diversified names are restricted to hedging or volatility-dampening roles with proportionally smaller sizing.",
+    "Swing trades on large-cap software or AI platform themes are only permitted when anchored to an earnings date or confirmed product announcement within the hold window; multi-quarter thematic narratives alone do not qualify as entry triggers.",
+    "Before entering any swing trade, confirm the broader market environment is risk-on by checking VIX level and the prevailing trend of the relevant sector ETF; if either signals risk-off, stand aside regardless of individual stock thesis quality.",
+    "Core portfolios must include at least one regulated utility or defensive sector position to offset high-beta or macro-sensitive holdings; rate case events are prioritized as low-competition, high-reliability catalysts.",
+    "Recurring revenue or maintenance businesses may only be held in Core if they serve an explicit volatility-dampening portfolio construction purpose; they must be sized small and are never entered as standalone return drivers."
   ],
   "factor_weights": {
     "momentum": {
-      "weight": 0.15,
-      "trend": "decreasing",
-      "rationale": "Momentum-only entries without catalyst confirmation were the primary driver of losses across NET, CRM, CACI, and TCOM; momentum remains a supporting filter but is no longer sufficient as a standalone entry basis."
+      "weight": 0.35,
+      "trend": "declining",
+      "rationale": "Momentum-only entries without a dated catalyst anchor produced consistent losses across NET, CRM, GOOGL, and China names; raw momentum is deprioritized until confirmed by a near-term binary event."
     },
     "mean_reversion": {
-      "weight": 0.1,
-      "trend": "decreasing",
-      "rationale": "Mean reversion strategies in macro-sensitive or illiquid names like IDCBY and CIHKY produced asymmetric downside; the factor is deprioritized until liquidity and regime filters are consistently applied."
+      "weight": 0.2,
+      "trend": "declining",
+      "rationale": "No winning pattern in the cluster data was driven by mean reversion; China recovery narratives most resembled mean-reversion bets and all failed, reducing confidence in this factor."
     },
     "value": {
-      "weight": 0.2,
+      "weight": 0.3,
       "trend": "stable",
-      "rationale": "Value remains relevant for Core portfolio construction, particularly in defensive and utility sectors, but must be paired with liquidity and exchange-listing criteria to avoid value traps in illiquid foreign names."
+      "rationale": "Value contributed modestly in domestic names but was insufficient alone; weighted as a secondary confirming factor behind event-driven signals rather than a primary entry driver."
     },
     "event_driven": {
-      "weight": 0.4,
-      "trend": "increasing",
-      "rationale": "Event-driven positioning is the highest-conviction factor given that confirmed near-term catalysts are now mandatory for all swing entries; this factor should dominate swing allocation decisions and is the primary differentiator between actionable ideas and watchlist candidates."
+      "weight": 0.85,
+      "trend": "rising",
+      "rationale": "The single highest-confidence pattern across all clusters: every winning position had a confirmed dated catalyst; every losing position lacked one. Event-driven factor receives maximum practical weight as the mandatory entry gate."
     },
     "sector_rotation": {
-      "weight": 0.15,
-      "trend": "stable",
-      "rationale": "Sector rotation remains useful for identifying macro regime alignment and sector ETF trend confirmation, which is now a required pre-entry check, but should not drive position sizing or entry timing without a discrete catalyst present."
+      "weight": 0.55,
+      "trend": "rising",
+      "rationale": "Pure-play sector expression (PNC vs JPM, regional banks) and defensive sector inclusion (utilities) both produced positive outcomes; sector rotation logic is valuable when combined with high-purity ticker selection and confirmed rate backdrop."
     }
   },
-  "updated_at": "2026-06-26T23:34:50.867Z"
+  "updated_at": "2026-06-27T01:41:09.748Z"
 }
