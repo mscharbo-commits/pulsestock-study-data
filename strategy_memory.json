@@ -1,30 +1,17 @@
 {
   "rules": [
-    "Every position entry (Core or Swing) requires a written catalyst checklist confirming a specific dated event — earnings release, rate case decision, contract award, or product announcement — occurring within the hold window before capital is committed.",
-    "Total China-linked exposure across all tickers and portfolios is capped at 15% of total capital at all times; a country exposure heatmap must be reviewed before each new entry to enforce this limit.",
-    "A hard mechanical stop-loss must be set at 3-4% below entry price for every swing position at the exact moment of purchase, with no discretionary override permitted.",
-    "Core portfolio eligibility requires: minimum average daily US volume of $10M, primary US or EU listing, and no OTC classification; any security failing any single screen is automatically excluded from Core regardless of thesis quality.",
-    "Any stock trading above 15x revenue or 40x forward earnings may only be entered in a swing position if BOTH VIX is below 20 AND an earnings date or product announcement falls within 10 calendar days of entry; if either condition is unmet, the trade is rejected.",
-    "When a sector thesis drives a trade, rank candidate tickers by revenue concentration in the target theme and allocate the largest position weight to the highest-purity expression; mega-cap diversified names are restricted to hedging or volatility-dampening roles with proportionally smaller sizing.",
-    "Swing trades on large-cap software or AI platform themes are only permitted when anchored to an earnings date or confirmed product announcement within the hold window; multi-quarter thematic narratives alone do not qualify as entry triggers.",
-    "Before entering any swing trade, confirm the broader market environment is risk-on by checking VIX level and the prevailing trend of the relevant sector ETF; if either signals risk-off, stand aside regardless of individual stock thesis quality.",
-    "Core portfolios must include at least one regulated utility or defensive sector position to offset high-beta or macro-sensitive holdings; rate case events are prioritized as low-competition, high-reliability catalysts.",
-    "Recurring revenue or maintenance businesses may only be held in Core if they serve an explicit volatility-dampening portfolio construction purpose; they must be sized small and are never entered as standalone return drivers.",
-    "Never allocate more than 15% of portfolio to China-domiciled or China-revenue-dependent positions at time of entry, measured in aggregate across all holdings.",
-    "Ban OTC-listed Chinese ADRs from Core portfolio classifications entirely; limit to Speculative sleeve with reduced sizing.",
-    "Every swing trade entry must have a documented near-term binary catalyst (earnings release, contract award, product launch, macro event) scheduled within 7 days of entry; positions without a qualifying catalyst are disqualified from the swing portfolio regardless of thesis quality.",
-    "Set a hard stop-loss at 3-4% below entry price for all swing positions at the moment of purchase; this rule is non-negotiable and removes discretion from loss management.",
-    "For any stock trading above 15x revenue, require a confirmed weekly chart breakout above a prior resistance level with above-average volume before entry; reduce standard position sizing by 25% for all such high-multiple names.",
-    "Before entering any swing trade, confirm that VIX trend and the relevant sector ETF trend indicate a risk-on environment; if macro tape is risk-off, stand aside regardless of individual stock thesis quality.",
-    "Every Core position entry must name a specific, dated catalyst (rate case filing, earnings date, contract announcement, product cycle event) before capital is deployed; macro recovery narratives without a dated catalyst do not qualify for Core classification.",
-    "Prioritize Core position construction around domestic companies with a single identifiable fundamental driver over foreign macro recovery or geopolitical recovery narratives.",
-    "For sector momentum trades, concentrate exposure in the highest-beta pure-play expression of the thesis rather than diversified mega-caps that dilute the return profile.",
-    "Always include at least one regulated utility or defensive sector position in Core portfolios to offset high-beta or macro-sensitive holdings; rate case events are preferred catalysts.",
-    "Regional bank NII expansion trades require a confirmed Fed rate pause or rate backdrop thesis before entry; set profit targets at prior technical resistance levels.",
-    "Recurring revenue and maintenance-model businesses should be sized small and held only for portfolio volatility-dampening purposes, not as standalone return generators.",
-    "Multi-quarter growth narratives executed as 10-day swing trades are a structural setup failure; any thesis requiring more than one earnings cycle to resolve must be reclassified as a Core or long-duration position with appropriate sizing.",
-    "Limit correlated country or sector exposure to prevent synchronized drawdowns; no single country macro thesis may simultaneously drive more than two active swing positions.",
-    "Apply early-exit discipline uniformly across all holdings; the behavioral pattern of cutting large-cap tech quickly must be systematized via hard stops rather than applied selectively."
+    "Every entry must satisfy at least ONE of: (A) a specific dated catalyst \u2014 earnings, product launch, contract award \u2014 within the 10-day hold window; (B) a confirmed technical breakout above multi-week resistance on above-average volume; or (C) sector ETF above 20-day MA with relative strength vs SPX. Pure narrative momentum with no technical or catalyst anchor is disqualified.",
+    "Before any new entry, confirm risk-on environment: VIX below 20 or in declining trend AND the relevant sector ETF above its 20-day MA. If either condition fails, stand aside regardless of individual stock thesis quality.",
+    "Total China-domiciled or China-revenue-dependent exposure is hard-capped at 15% of combined portfolio value at all times. No OTC-listed Chinese ADRs permitted in Core. Maximum two active positions sharing the same single-country macro thesis simultaneously.",
+    "Core portfolio eligibility requires: minimum $10M average daily US volume, primary listing on NYSE or NASDAQ (no OTC), beta below 1.3, and no single-country regulatory or delisting overhang. Failure on any single criterion means automatic exclusion from Core.",
+    "Hard stop-loss must be set at 3.5% below entry for every swing position and 5% below entry for every core position at the exact moment of purchase. No discretionary override permitted under any circumstances.",
+    "Stocks trading above 15x revenue or 40x forward earnings require BOTH: VIX below 20 AND a confirmed earnings date or product announcement within 10 calendar days of entry. If either condition is unmet the trade is rejected. Reduce standard position sizing by 25% for all high-multiple names.",
+    "Swing trades on large-cap legacy software or cloud platform names (e.g. CRM, SAP, ORCL, WDAY) require an earnings date or confirmed product announcement within the hold window. This rule does NOT apply to high-growth software, cybersecurity, EDA, defense tech, or fintech names where technical momentum is the primary driver.",
+    "For sector momentum trades, concentrate in the highest-beta pure-play expression of the thesis. Mega-cap diversified names are restricted to hedging roles with smaller sizing. No single sector thesis may drive more than three active positions simultaneously.",
+    "Core portfolios must include at least one regulated utility or defensive sector position to offset high-beta holdings. Rate case events and recurring revenue businesses qualify \u2014 sized small for volatility dampening, never as standalone return drivers.",
+    "Multi-quarter growth narratives executed as 10-day swing trades are a structural setup failure. Any thesis requiring more than one earnings cycle to resolve must be reclassified as a Core long-duration position or rejected entirely.",
+    "Apply early-exit discipline uniformly via hard stops \u2014 not selectively. The stop-loss rule is mechanical and applies to every position without exception. Behavioral patterns of cutting some positions quickly while holding others must be eliminated.",
+    "Every pick must be explicitly aligned to the current market regime. In Bull Low Vol: prioritize US growth, momentum, and sector rotation. In Bear or High Vol: reduce new entries, widen stops, shift to defensive and short-duration setups. China recovery and international macro theses require confirmed earnings acceleration before entry in any regime."
   ],
   "factor_weights": {
     "momentum": {
@@ -47,5 +34,7 @@
       "weight": 0.45,
       "trend": "stable"
     }
-  }
+  },
+  "updated_at": "2026-06-27T02:06:40Z",
+  "rule_version": "2.0"
 }
