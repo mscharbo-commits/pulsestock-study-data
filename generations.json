@@ -1,0 +1,58 @@
+{
+  "current_generation": 1,
+  "generations": [
+    {
+      "id": 1,
+      "label": "Generation 1",
+      "created_at": "2026-06-20T00:00:00Z",
+      "description": "Initial picks \u2014 no learned rules applied",
+      "rule_version": "v0.0",
+      "rule_count": 0,
+      "rules_snapshot": [],
+      "tickers": [
+        "XOM",
+        "UNH",
+        "MSFT",
+        "AAPL",
+        "NVDA",
+        "AVGO",
+        "CRM",
+        "META",
+        "ORCL",
+        "ADBE",
+        "PANW",
+        "NOW",
+        "AMZN",
+        "MU",
+        "COST",
+        "FDX",
+        "GOOGL",
+        "NKE",
+        "ANET",
+        "ADSK",
+        "MCD",
+        "MA",
+        "V",
+        "FICO",
+        "LLY",
+        "KLAC",
+        "MSCI",
+        "AXON",
+        "CDNS",
+        "CRWD",
+        "ASML",
+        "AMAT",
+        "MPWR",
+        "APP",
+        "MELI"
+      ],
+      "stats": {
+        "total_picks": 35,
+        "open": 34,
+        "closed": 1,
+        "avg_return": 0,
+        "win_rate": 0
+      }
+    }
+  ]
+}
