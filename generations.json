@@ -1,58 +1,27 @@
 {
-  "current_generation": 1,
+  "current_generation": 2,
   "generations": [
     {
-      "id": 1,
-      "label": "Generation 1",
-      "created_at": "2026-06-20T00:00:00Z",
-      "description": "Initial picks \u2014 no learned rules applied",
-      "rule_version": "v0.0",
-      "rule_count": 0,
-      "rules_snapshot": [],
-      "tickers": [
-        "XOM",
-        "UNH",
-        "MSFT",
-        "AAPL",
-        "NVDA",
-        "AVGO",
-        "CRM",
-        "META",
-        "ORCL",
-        "ADBE",
-        "PANW",
-        "NOW",
-        "AMZN",
-        "MU",
-        "COST",
-        "FDX",
-        "GOOGL",
-        "NKE",
-        "ANET",
-        "ADSK",
-        "MCD",
-        "MA",
-        "V",
-        "FICO",
-        "LLY",
-        "KLAC",
-        "MSCI",
-        "AXON",
-        "CDNS",
-        "CRWD",
-        "ASML",
-        "AMAT",
-        "MPWR",
-        "APP",
-        "MELI"
+      "id": 2,
+      "label": "Generation 2",
+      "created_at": "2026-06-29T22:15:39.063Z",
+      "description": "12 rules applied",
+      "rule_count": 12,
+      "rules_snapshot": [
+        "Technical momentum is a confidence modifier not a hard gate: confirmed bull stack (price above MA50+MA200) and RSI 50-70 adds 5-10 points to confidence. Absence of MA data due to data limitations does NOT disqualify a pick — use 52W range position and price trend as proxies. Only decline on technicals if price is clearly in a downtrend (near 52W low, RSI below 40).",
+        "Before any new entry, confirm risk-on environment: VIX below 20 or in declining trend AND the relevant sector ETF above its 20-day MA. If either condition fails, stand aside regardless of individual stock thesis quality.",
+        "Total China-domiciled or China-revenue-dependent exposure is hard-capped at 15% of combined portfolio value at all times. No OTC-listed Chinese ADRs permitted in Core. Maximum two active positions sharing the same single-country macro thesis simultaneously.",
+        "Core portfolio eligibility requires: minimum $10M average daily US volume, primary listing on NYSE or NASDAQ (no OTC), beta below 1.3, and no single-country regulatory or delisting overhang. Failure on any single criterion means automatic exclusion from Core.",
+        "Hard stop-loss must be set at 3.5% below entry for every swing position and 5% below entry for every core position at the exact moment of purchase. No discretionary override permitted under any circumstances.",
+        "Stocks trading above 15x revenue or 40x forward earnings require BOTH: VIX below 20 AND a confirmed earnings date or product announcement within 10 calendar days of entry. If either condition is unmet the trade is rejected. Reduce standard position sizing by 25% for all high-multiple names.",
+        "Swing trades on large-cap legacy software or cloud platform names (e.g. CRM, SAP, ORCL, WDAY) require an earnings date or confirmed product announcement within the hold window. This rule does NOT apply to high-growth software, cybersecurity, EDA, defense tech, or fintech names where technical momentum is the primary driver.",
+        "For sector momentum trades, concentrate in the highest-beta pure-play expression of the thesis. Mega-cap diversified names are restricted to hedging roles with smaller sizing. No single sector thesis may drive more than three active positions simultaneously.",
+        "Core portfolios must include at least one regulated utility or defensive sector position to offset high-beta holdings. Rate case events and recurring revenue businesses qualify — sized small for volatility dampening, never as standalone return drivers.",
+        "Multi-quarter growth narratives executed as 10-day swing trades are a structural setup failure. Any thesis requiring more than one earnings cycle to resolve must be reclassified as a Core long-duration position or rejected entirely.",
+        "Apply early-exit discipline uniformly via hard stops — not selectively. The stop-loss rule is mechanical and applies to every position without exception. Behavioral patterns of cutting some positions quickly while holding others must be eliminated.",
+        "Every pick must be explicitly aligned to the current market regime. In Bull Low Vol: prioritize US growth, momentum, and sector rotation. In Bear or High Vol: reduce new entries, widen stops, shift to defensive and short-duration setups. China recovery and international macro theses require confirmed earnings acceleration before entry in any regime."
       ],
-      "stats": {
-        "total_picks": 35,
-        "open": 34,
-        "closed": 1,
-        "avg_return": 0,
-        "win_rate": 0
-      }
+      "tickers": []
     }
   ]
 }
